@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 /*
 int main (){
 
@@ -55,3 +55,22 @@ printf ("%d x %d = %d",x , y,resultado);
 
 }
     */
+
+   /*Escreva um programa que peça um inteiro ao usuário, e 
+   com esse inteiro, ele imprima, linha-a-linha, a tabuada daquele número
+    até o 10. Por exemplo, se ele escolher o número 2, o programa imprimirá:*/
+/*
+    int main (){
+        int usuario = 0;
+        
+        int tabuadaResultado[10];
+
+        printf("Por favor me forneca o numero da tabuada :");
+        scanf("%d",&usuario);
+
+        for(int i = 0; i<=10 ; i++){
+            tabuadaResultado[i]= usuario * i;
+            printf("%d x %d = %d\n",usuario,i,tabuadaResultado[i]);
+        }
+
+    }*/
