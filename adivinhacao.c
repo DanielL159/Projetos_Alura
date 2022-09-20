@@ -90,13 +90,35 @@ int main (){
 
     printf("Fim de Jogo\n");
 
-if (acertou)
- {
-    printf("Parabens! Voce acertou\n");
-    printf("Voce acertou em %d tentativas.\n",tentativa);
-     printf("Total de pontos %.1f\n" , pontos);
-}else{
-printf("Vc perdeu Tente novamente!! ");
-}
+if(acertou) {
+
+        printf("             OOOOOOOOOOO               \n");
+        printf("         OOOOOOOOOOOOOOOOOOO           \n");
+        printf("      OOOOOO  OOOOOOOOO  OOOOOO        \n");
+        printf("    OOOOOO      OOOOO      OOOOOO      \n");
+        printf("  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n");
+        printf(" OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n");
+        printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n");
+        printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n");
+        printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
+        printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
+        printf("  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n");
+        printf("    OOOOO   OOOOOOOOOOOOOOO   OOOO     \n");
+        printf("      OOOOOO   OOOOOOOOO   OOOOOO      \n");
+        printf("         OOOOOO         OOOOOO         \n");
+        printf("             OOOOOOOOOOOO              \n");
+        printf("\n\n");
+
+        printf("Parabéns! Você ganhou!\n");
+        printf("Você acertou em %d tentativas!\n", numerodetentativas);
+        printf("Total de pontos: %.1f\n", pontos);
+
+} else {
+        printf("Você perdeu! Tente de novo!\n");
+
+        printf("       \\|/ ____ \\|/    \n");
+        printf("        @~/ ,. \\~@      \n");
+        printf("       /_( \\__/ )_\\    \n");
+        printf("          \\__U_/        \n");
     return 0;
 }
