@@ -167,6 +167,7 @@ int main (){
     escolhePalavra();
   abertura();
 
+
         do
         {
             desenhaForca();
